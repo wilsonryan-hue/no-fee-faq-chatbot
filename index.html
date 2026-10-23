@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>No-fee FAQ chatbot: free website chatbot with no monthly fee (demo)</title>
+<meta name="description" content="A free, open-source FAQ chatbot for small business websites. One script, no AI service, no API key, no monthly fee, no cookies. It answers only from your approved questions, so it never makes things up.">
+<link rel="canonical" href="https://www.tchworks.co.uk/no-fee-faq-chatbot/">
+<style>body{font:17px/1.55 system-ui,sans-serif;max-width:760px;margin:0 auto;padding:28px 18px;color:#1b1f2a}h1{line-height:1.2}code,pre{background:#f3f4f8;border-radius:6px}pre{padding:12px;overflow:auto}code{padding:1px 5px}.cta{background:#fff7e8;border:1px solid #f0d9a8;border-radius:10px;padding:14px 16px}a{color:#1f3fbf}</style>
+</head><body>
+<h1>No-fee FAQ chatbot</h1>
+<p>A free website chatbot for small businesses. It answers your customers' common questions from a list you approve, so it never invents prices or promises. One script file, no AI service, no API key, no cookies and no monthly fee. MIT licence.</p>
+<p><strong>Try it:</strong> this demo is set up for a pretend bakery. Ask "when are you open?", "can you deliver a cake?" or "anything vegan?", or try something it doesn't know.</p>
+<div id="demo"></div>
+<h2>Add it to your site</h2>
+<ol><li>Write your questions and answers in a spreadsheet with three columns: <code>question</code>, <code>answer</code>, <code>keywords</code>. Save it as CSV.</li>
+<li>Run <code>python3 tools/csv_to_faq.py faqs.csv faq.json --name "Your Business" --colour "#1f3fbf"</code>.</li>
+<li>Upload <code>faq-bot.js</code> and <code>faq.json</code> to your site and paste this before <code>&lt;/body&gt;</code>:</li></ol>
+<pre>&lt;script src="/faq-bot.js" data-config="/faq.json" defer&gt;&lt;/script&gt;</pre>
+<p>Code, tests and install notes for WordPress, Squarespace, Wix and Shopify: <a href="https://github.com/wilsonryan-hue/no-fee-faq-chatbot">github.com/wilsonryan-hue/no-fee-faq-chatbot</a>.</p>
+<div class="cta"><strong>Rather not do it yourself?</strong> TCH Works will write the questions from your own website, get every answer approved by you, style it to your brand and send install steps for your platform. From £60, one-off, no monthly fee. <a href="https://www.tchworks.co.uk/services/faq-chatbot/?src=gh-demo">See the set-up service</a>.</div>
+<script src="faq-bot.js" defer></script>
+<script>window.addEventListener("DOMContentLoaded",function(){fetch("example/faq.json").then(function(r){return r.json()}).then(function(c){c.inline="#demo";TCHFaqBot.mount(c)})});</script>
+</body></html>

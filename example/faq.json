@@ -1,0 +1,150 @@
+{
+ "name": "Hollybank Bakery (example)",
+ "colour": "#7a3e12",
+ "button": "Questions? Ask us",
+ "greeting": "Hi! Ask me a question, or tap one below.",
+ "fallback": "Sorry, I don't have an answer for that one, so I won't guess. Email [hello@example-bakery.co.uk](mailto:hello@example-bakery.co.uk) and we'll reply.",
+ "threshold": 0.34,
+ "suggest": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "synonyms": {
+  "price": [
+   "cost",
+   "costs",
+   "much",
+   "charge",
+   "fee",
+   "fees",
+   "gbp",
+   "pound",
+   "pounds"
+  ],
+  "time": [
+   "long",
+   "quick",
+   "fast",
+   "when",
+   "days"
+  ],
+  "open": [
+   "opening",
+   "hours",
+   "times"
+  ]
+ },
+ "faqs": [
+  {
+   "q": "What are your opening hours?",
+   "keywords": [
+    "open",
+    "hours",
+    "times",
+    "close",
+    "saturday",
+    "sunday"
+   ],
+   "a": "We're open Tuesday to Saturday, 8am to 4pm. We're closed Sunday and Monday."
+  },
+  {
+   "q": "Do you take cake orders?",
+   "keywords": [
+    "cake",
+    "order",
+    "birthday",
+    "celebration",
+    "custom"
+   ],
+   "a": "Yes. Celebration cakes need 5 days' notice. Use the [order form](/order) or email hello@example-bakery.co.uk."
+  },
+  {
+   "q": "Do you have gluten-free options?",
+   "keywords": [
+    "gluten",
+    "coeliac",
+    "allergy",
+    "free"
+   ],
+   "a": "We bake a gluten-free loaf and brownies every Friday. Our kitchen uses flour, so we can't promise they're safe for coeliacs."
+  },
+  {
+   "q": "Do you deliver?",
+   "keywords": [
+    "deliver",
+    "delivery",
+    "post",
+    "ship",
+    "cake delivery"
+   ],
+   "a": "We deliver cake orders within 5 miles for £5. Bread and pastries are collection only."
+  },
+  {
+   "q": "Where can I park?",
+   "keywords": [
+    "park",
+    "parking",
+    "car"
+   ],
+   "a": "There's free on-street parking on Market Lane after 9:30am, and a pay car park behind the church."
+  },
+  {
+   "q": "Can I pay by card?",
+   "keywords": [
+    "pay",
+    "card",
+    "cash",
+    "contactless",
+    "cheque"
+   ],
+   "a": "Yes, we take card and contactless. We don't take cheques."
+  },
+  {
+   "q": "Do you sell vegan bakes?",
+   "keywords": [
+    "vegan",
+    "dairy",
+    "dairy-free",
+    "without dairy",
+    "egg",
+    "plant",
+    "vegan options"
+   ],
+   "a": "Our sourdough, focaccia and fruit buns are vegan. Ask at the counter for today's vegan cake."
+  },
+  {
+   "q": "Can I reserve bread?",
+   "keywords": [
+    "reserve",
+    "save",
+    "hold",
+    "keep",
+    "bread"
+   ],
+   "a": "Yes. Message us by 6pm the day before and we'll keep it until 12pm."
+  },
+  {
+   "q": "Do you do wholesale for cafés?",
+   "keywords": [
+    "wholesale",
+    "cafe",
+    "trade",
+    "business",
+    "bulk"
+   ],
+   "a": "Yes, for cafés within 10 miles. Email hello@example-bakery.co.uk with what you need and how often."
+  },
+  {
+   "q": "Can I get a refund?",
+   "keywords": [
+    "refund",
+    "return",
+    "money back",
+    "complaint"
+   ],
+   "a": "If something isn't right, bring it back the same day with your receipt and we'll replace it or refund you."
+  }
+ ]
+}
