@@ -70,6 +70,15 @@ Runs 24 differently worded questions against the example, including off-topic on
 
 [TCH Works](https://www.tchworks.co.uk/services/faq-chatbot/?src=github) will write the questions from your own website, get every answer approved by you, match your brand colour, test 30+ ways of asking, and send install steps for your platform. **From £60, one-off, no monthly fee.** Email tchworks.shop@agentmail.to.
 
+
+## Printables
+
+Free A4 printable companion pack (quick start, fictional bakery EXAMPLE with 24/24 tests, blank Q&A worksheet, install checklist for HTML / WordPress / Squarespace / Wix / Shopify, hire-TCH upsell):
+
+- **Download the PDF:** [no-fee-faq-chatbot-setup-pack-free.pdf](https://github.com/wilsonryan-hue/no-fee-faq-chatbot/releases/download/v1.0.0-free-printable/no-fee-faq-chatbot-setup-pack-free.pdf) ([release v1.0.0-free-printable](https://github.com/wilsonryan-hue/no-fee-faq-chatbot/releases/tag/v1.0.0-free-printable))
+- Need it done for you? [FAQ chatbot for your website](https://www.tchworks.co.uk/services/faq-chatbot/?src=faqbot-release) — **£60** Starter, **£120** Business, one-off, no monthly fee.
+- Live demo: [bakery FAQ chatbot](https://www.tchworks.co.uk/no-fee-faq-chatbot/?src=faqbot-release).
+
 ## Licence
 
 MIT. Use it on as many sites as you like, including client sites.
