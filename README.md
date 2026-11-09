@@ -76,6 +76,7 @@ Runs 24 differently worded questions against the example, including off-topic on
 Free A4 printable companion pack (quick start, fictional bakery EXAMPLE with 24/24 tests, blank Q&A worksheet, install checklist for HTML / WordPress / Squarespace / Wix / Shopify, hire-TCH upsell):
 
 - **Download the PDF:** [no-fee-faq-chatbot-setup-pack-free.pdf](https://github.com/wilsonryan-hue/no-fee-faq-chatbot/releases/download/v1.0.0-free-printable/no-fee-faq-chatbot-setup-pack-free.pdf) ([release v1.0.0-free-printable](https://github.com/wilsonryan-hue/no-fee-faq-chatbot/releases/tag/v1.0.0-free-printable))
+- **Also on Gumroad (free, £0+):** [tchworks.gumroad.com/l/sqpwht](https://tchworks.gumroad.com/l/sqpwht)
 - Need it done for you? [FAQ chatbot for your website](https://www.tchworks.co.uk/services/faq-chatbot/?src=faqbot-release) — **£60** Starter, **£120** Business, one-off, no monthly fee.
 - Live demo: [bakery FAQ chatbot](https://www.tchworks.co.uk/no-fee-faq-chatbot/?src=faqbot-release).
 
